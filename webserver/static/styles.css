@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, label, input, form {
+  margin: 0;
+  padding: 0;
+}
+
+#getinfo {
+  background-color: #ffcb05;            /* Pokémon Yellow */
+  color: #2a75bb;                       /* Pokémon Blue */
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 3px solid #2a75bb;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#pokemon-list div {
+  background: #f8f9fa;
+  border: 2px solid #2a75bb;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  width: 300px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e60012;            /* Pokéball Red */
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffcb05;
+  text-shadow: 2px 2px #2a75bb;
+}
+
+/* Style the form container */
+#form {
+  border: 2px solid #2a75bb;
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+#form input[type="text"],
+#form input[type="password"],
+#form input[type="submit"] {
+  width: 100%;
+  padding: 8px; /* Adjusted padding for textboxes and submit button */
+  margin-bottom: 10px;
+  border: 1px solid #2a75bb;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures the total width includes padding and border */
+}
+
+#form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#form input[type="submit"] {
+  background-color: #2a75bb;
+  color: #ffcb05;
+  cursor: pointer;
+  /* Ensuring the submit button doesn't take full width */
+  display: inline-block;
+  width: auto;
+}
+
+/* Style the logout button */
+#logout-btn {
+  width: 20%;
+  padding: 8px; /* Adjusted padding for the logout button */
+  margin-top: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Center the Get Info header */
+#getinfo {
+  text-align: center;
+  margin-bottom: 20px;
+}
